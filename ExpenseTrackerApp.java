@@ -188,7 +188,7 @@ public class ExpenseTrackerApp {
             }
 
             YearMonth yearMonth = YearMonth.of(year, monthNumber);
-            System.out.println("Summary for " + yearMonth.format(DateTimeFormatter.ofPattern("MMMM YYYY")) + ":");
+            System.out.println("Summary");
 
             
             List<Transaction> monthlyTransactions = new ArrayList<>();
